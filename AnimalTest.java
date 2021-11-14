@@ -44,7 +44,7 @@ class Duck extends Animal {
     }
 }
 
-public class AnimalTest {
+class AnimalTest {
     public static void main(String[] args) {
         Animal[] farm = {new Cow(), new Cow(), new Cow(),
                          new Sheep(), new Sheep(),
