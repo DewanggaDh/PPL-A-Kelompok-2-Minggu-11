@@ -83,7 +83,7 @@ class WithSausages extends Pizza {
     }
 }
 
-public class PizzaTest {
+class PizzaTest {
     public static void main(String[] args) {
         Pizza pizza1 = new Pizza();
         pizza1 = new WithMushrooms(pizza1);
